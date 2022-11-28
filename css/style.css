@@ -236,7 +236,7 @@ a:link {
 }
 
 a:hover {
-  color: violet;
+  color: black;
   background-color: transparent;
   text-decoration: underline;
 }

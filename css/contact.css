@@ -60,9 +60,24 @@ body {
   }
 
 h1 {
-   color: black;
+   color: white;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
 
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
 form {   
    background : lightblue ;
   
