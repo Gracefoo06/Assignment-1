@@ -30,7 +30,7 @@
 
 body { 
    text-align: center;
-/*    background:  url("about_02.jpg"); */
+
    background-repeat: no-repeat;
    background: 0.5 ;
    background-size: cover;
@@ -43,7 +43,7 @@ body {
 
 	background: linear-gradient(-45deg, #C7DCF2, #9E69F4, #89F5F0, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+	animation: gradient 8s ease infinite;
 	
 }
 
@@ -59,7 +59,7 @@ body {
   	}
   }
 
-}
+
 
 div.scroll {
   
@@ -270,6 +270,7 @@ a:active {
   div.example {
     font-size: 30px;
   }
+}
 .hidden{
   opacity: 0;
   filter: blur(5px);
@@ -280,3 +281,4 @@ a:active {
   opacity: 1;
   filter: blur(0px);
   transform: translateX(0);
+}

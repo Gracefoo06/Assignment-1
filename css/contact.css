@@ -136,7 +136,7 @@ button{
     background-color: grey ;
     color: black;
       }
-}
+
 
 @media screen and (max-width: 480px) {
 
@@ -153,23 +153,7 @@ button{
    }
  }
 
-/* .hidden{
-  opacity: 0;
-  transition: all 1s;
-}
-.show{
-  opacity: 1;
 
-} */
-.bottombar {
-  background-color: lightblue;
-  background-image: linear-gradient(lightblue, #7A8DCC);
-  overflow: hidden;
-  color: white;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
 
 .sidebar{
   display:none;
@@ -314,3 +298,4 @@ button{
   opacity: 1;
   filter: blur(0px);
   transform: translateX(0);
+}
