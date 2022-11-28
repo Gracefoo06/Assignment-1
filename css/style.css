@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+
+
+
+.navbar {
+  width: 100%;
+  background-color: lightblue;
+  background-image: linear-gradient(lightblue, #7A8DCC);
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 17px 2px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.navbar a:hover {
+  background-color: #7EC2CC;
+  
+  ;
+}
+
+.active {
+  background-color: #2F494D;
+}
+
+body { 
+   text-align: center;
+/*    background:  url("about_02.jpg"); */
+   background-repeat: no-repeat;
+   background: 0.5 ;
+   background-size: cover;
+   background: linear-gradient( 45deg ,#C5C6E1, #C1DEE0);
+   
+   color:  white;
+   display: flex;
+   flex-direction: column;
+   font-family: Roboto Mono;
+
+	background: linear-gradient(-45deg, #C7DCF2, #9E69F4, #89F5F0, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	
+}
+
+  @keyframes gradient {
+  	0% {
+  		background-position: 0% 50%;
+  	}
+  	50% {
+  		background-position: 100% 50%;
+  	}
+  	100% {
+  		background-position: 0% 50%;
+  	}
+  }
+
+}
+
+div.scroll {
+  
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scroll a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+div.scroll a:hover {
+  background-color: #777;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 2px;
+}
+
+
+.bottombar {
+  background-color: lightblue;
+  background-image: linear-gradient(lightblue, #7A8DCC);
+  overflow: hidden;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar{
+  display:none;
+}
+
+@media screen and (max-width: 598px) {
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.container {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+.topright {
+  position: absolute;
+  top: -19px;
+  left: 110px;
+  font-size: 18px;
+}
+
+
+.bar1, .bar2, .bar3 {
+  width: 28px;
+  height: 4.8px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+
+.change .bar2 {opacity: 0;}
+
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+   form {      
+   width: 75%;
+ }
+    
+   .name-section{
+     flex-direction: column;
+   } 
+ 
+  .name {
+     width: 100%;
+   }
+ }
+@media screen and (max-width: 598px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 598px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 598px) {
+  .sidebar {
+    display:block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #2F494D;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 26px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: blue;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #2F494D;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: violet;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+
+  form {      
+  width: 75%;
+}
+   
+  .name-section{
+    flex-direction: column;
+  } 
+
+ .name {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+.show{
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0);
