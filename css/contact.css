@@ -9,12 +9,13 @@
 
 .navbar a {
   float: left;
-  width: 20%;
-  text-align: center;
-  padding: 17px 2px;
+  width: 17%;
+  align-items: center;
+  padding: 15px 2px;
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
+  
 }
 .navbar a:hover {
   background-color: #7EC2CC;

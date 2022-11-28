@@ -61,23 +61,6 @@ body {
 
 
 
-div.scroll {
-  
-  overflow: auto;
-  white-space: nowrap;
-}
-
-div.scroll a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-}
-
-div.scroll a:hover {
-  background-color: #777;
-}
 
 
 .row {
@@ -269,6 +252,25 @@ a:active {
 @media screen and (max-width: 600px) {
   div.example {
     font-size: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  div.scroll {
+    
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  div.scroll a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  div.scroll a:hover {
+    background-color: #777;
   }
 }
 .hidden{
