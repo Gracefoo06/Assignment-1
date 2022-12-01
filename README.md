@@ -50,3 +50,4 @@ navbar: https://www.w3schools.com/howto/howto_js_topnav.asp
 scrolling animation: https://www.youtube.com/watch?v=T33NN_pPeNI&list=WL&index=3
 topright: https://www.w3schools.com/css/css_positioning.asp
 linkhover: https://www.w3schools.com/css/css_link.asp
+contactpage: https://www.w3schools.com/howto/howto_css_contact_form.asp
