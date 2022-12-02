@@ -4,6 +4,8 @@ One or two paragraphs providing an overview of your project. Tell us about your 
 Holostars main page
 Holostars is a vtuber idol group that is uprising in popularity recently, thus i am making a website for people who are curious or do not know what they are, they can look into my website. They can learn what their about, who are the talents, find their official sns, what events they have participated in and if they have any questions they can read my faq page and try to contact us.
 
+My page has been tested in google chrome and microsoft edge
+
 As a user type, i want to find out more about this group so i can have a better understanding of who they are and what they are, so i added descriptions on about who they are and their official sns and events to get a better understanding
 
 As a user type, if i want to know if i can do things such as do fan works or send gifts, i can check the FAQ page to know the possible answers to these questions, and if the answer was not answered in the FAQ page, i can send a inquirey
