@@ -9,9 +9,6 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
-document.getElementById("myAnchor").addEventListener("click", function(event){
-  event.preventDefault()
-});
 
 function myFunction(x) {
   x.classList.toggle("change");
@@ -41,4 +38,3 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements= document.querySelectorAll('.hidden');
 hiddenElements.forEach((el)=> observer.observe(el));
-
