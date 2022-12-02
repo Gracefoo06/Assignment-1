@@ -9,13 +9,12 @@
 
 .navbar a {
   float: left;
-  width: 17%;
-  align-items: center;
-  padding: 15px 2px;
+  width: 20%;
+  text-align: center;
+  padding: 17px 2px;
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
-  
 }
 .navbar a:hover {
   background-color: #7EC2CC;
@@ -26,7 +25,6 @@
 .active {
   background-color: #2F494D;
 }
-
 
 
 
@@ -173,7 +171,7 @@ button{
 .topright {
   position: absolute;
   top: -10px;
-  left: 265px;
+  left: 245px;
   font-size: 18px;
 }
 
